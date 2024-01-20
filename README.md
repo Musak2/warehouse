@@ -11,5 +11,12 @@ Installs the node_modules folder.
 Runs the server.\
 By default, the server listens on [http://localhost:3000](http://localhost:3000).
 
-## Usage
-Send a POST request to /optimize-picking with a payload containing product IDs and a starting position. The server will respond with the optimized picking order and the total distance of the path.
+## Example Request Payload
+
+Below is an example of the JSON payload to send with a POST request to the `/optimize-picking` endpoint:
+
+```json
+{
+  "products": ["product-1", "product-2"],
+  "startingPosition": { "x": 0, "y": 0, "z": 0 }
+}
