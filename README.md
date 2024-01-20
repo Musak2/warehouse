@@ -9,6 +9,7 @@ Installs the node_modules folder.
 ### `npm run dev`
 
 Runs the server.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+By default, the server listens on [http://localhost:3000](http://localhost:3000).
 
-## Text
+Usage
+Send a POST request to /optimize-picking with a payload containing product IDs and a starting position. The server will respond with the optimized picking order and the total distance of the path.
