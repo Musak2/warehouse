@@ -4,13 +4,10 @@ This Node.js application leverages Express to create an API for optimizing the p
 
 In the project directory, you can run:
 
-### `npm install`
+### `npm install` - Installs the node_modules folder.
 
-Installs the node_modules folder.
+### `npm run dev` - Runs the server.
 
-### `npm run dev`
-
-Runs the server.\
 By default, the server listens on [http://localhost:3000](http://localhost:3000).
 
 ## Example Request Payload
