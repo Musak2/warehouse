@@ -26,6 +26,6 @@ Below is an example of the JSON payload to send with a POST request to the `/opt
 
 ## Features
 
-_**Express Server Setup:**_ Initializes and runs an Express server to handle API requests.\
-_**Warehouse Data Retrieval:**_ Fetches data about product positions within a warehouse from an external API.\
-_**Picking Path Optimization:**_ Determines the shortest path for product picking, starting from a given position.\
+- _**Express Server Setup:**_ Initializes and runs an Express server to handle API requests.\
+- _**Warehouse Data Retrieval:**_ Fetches data about product positions within a warehouse from an external API.\
+- _**Picking Path Optimization:**_ Determines the shortest path for product picking, starting from a given position.
